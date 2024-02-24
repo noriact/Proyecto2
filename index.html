@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>3INA Home</title>
+    <link rel="icon" href="https://es.3ina.com/cdn/shop/files/Logo_3INA_32x32.png?v=1614833735">
+</head>
+
+<body>
+
+<header>
+    <nav class="top-nav-menu">
+        <div class="top-nav-menu-logo">
+            <img src="/assets/3ina-logo.svg" class="main-logo"/>
+        </div>
+        <ul class="top-nav-menu-links">
+            <li>
+                <a href="#">
+                    NOVEDADES
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    BEST-SELLERS
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    MAQUILLAJES
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    3INA COLOR CLUB
+                </a>
+            </li>
+        </ul>
+
+        <ul class="top-nav-menu-icons">
+            <li>
+                <a href="#">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <span class="title-container">
+        <h1>BEST-SELLERS</h1>
+        <h2>vegan</h2>
+        <button class="best-sellers-view-more-button">
+            Ver productos
+        </button>
+    </span>
+
+    <section class="best-sellers">
+        <article class="filters-container">
+            <div class="seller-filter-container">
+                <p>
+                    Seleciona el vendedor
+                </p>
+                <select class="seller-selector">
+                    <option selected value>-- Sin filtro --</option>
+                </select>
+            </div>
+            <div class="price-filter-container">
+                <p>
+                    Introduzca el precio
+                </p>
+                <input type="number" class="price-filter-input"/>
+                <button class="price-filter-button">Buscar</button>
+            </div>
+            <button class="clear-filter-button">Limpiar filtros</button>
+        </article>
+        <article class="best-sellers-products products">
+        </article>
+    </section>
+</main>
+<footer>
+    <div class="top-nav-menu-logo">
+        <img src="/assets/3ina-logo.svg" class="main-logo"/>
+    </div>
+</footer>
+
+<script src="/main.js"></script>
+
+</body>
+
+</html>
