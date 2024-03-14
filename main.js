@@ -147,7 +147,7 @@ const filterProduct = (product, seller, price) => (seller == undefined || produc
     (price == undefined || product.price < price);
 
 const ProductCard = (product) => {
-    return `<div class="product-container">
+    return `<article class="product-container">
                 <div class="product-detail">
                     <img src=${product.image} alt="labial" class="product-link">
                     <a class="product-title"
@@ -163,7 +163,7 @@ const ProductCard = (product) => {
                     <p>Añadir al carrito</p>
                     <p>${product.price}</p>
                 </button>
-            </div>`
+            </article>`
 };
 
 const displayCarousel = (products) => {
