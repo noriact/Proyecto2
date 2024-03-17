@@ -139,6 +139,7 @@ clearFilterButton.addEventListener("click", (event) => {
     filterBySeller = undefined;
 
     sellerSelector.value = "";
+    priceSelector.value = "";
 
     displayCarousel(products);
 });

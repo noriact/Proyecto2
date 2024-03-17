@@ -66,6 +66,7 @@ footer {
   justify-content: center;
   height: 10%;
   background-color: var(--background-alternative-color);
+  bottom: 0;
 }
 
 .top-nav-menu {
@@ -116,7 +117,6 @@ footer {
   flex-direction: row;
   text-align: center;
   align-items: stretch;
-  padding-bottom: 3em;
 }
 
 .best-sellers-view-more-button {
@@ -151,7 +151,8 @@ footer {
   flex-wrap: wrap;
   text-align: left;
   justify-content: center;
-  padding: 0 1% 0 1%;
+  padding: 4% 1% 3% 1%;
+  height: 100%;
 }
 
 .seller-selector {
@@ -210,7 +211,6 @@ footer {
 .product-add-to-cart-button:hover p {
   color: white;
 }
-
 
 .footer-links {
   align-items: center;
