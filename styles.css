@@ -130,7 +130,7 @@ footer {
 }
 
 .filters-container {
-  width: 10%;
+  width: 20%;
   height: inherit;
   background-color: var(--contrast-color);
   display: flex;
@@ -145,13 +145,13 @@ footer {
 }
 
 .best-sellers-products {
-  width: 90%;
+  width: 80%;
   display: flex;
   gap: 2em;
   flex-wrap: wrap;
   text-align: left;
   justify-content: center;
-  padding: 4% 1% 3% 1%;
+  padding: 4% 5% 3% 5%;
   height: 100%;
 }
 
