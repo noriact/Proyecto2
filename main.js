@@ -172,6 +172,9 @@ const displayCarousel = (products) => {
     products.forEach((product) => {
         productBox.innerHTML += ProductCard(product);
     });
+    if (products.length == 0) {
+        productBox.innerHTML = "<p>¡Ups! No se han encontrado productos con estas características</p>"
+    }
 };
 
 const fillSelector = () => {
