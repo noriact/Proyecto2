@@ -67,7 +67,7 @@ footer {
   align-items: center;
   align-content: center;
   justify-content: center;
-  position: fixed;
+  position: sticky;
   width: 100%;
   bottom: 0;
   height: 10%;
